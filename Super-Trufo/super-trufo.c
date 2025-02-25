@@ -12,7 +12,7 @@ int main(){
     float pibpercapita1, pibpercapita2;
 
     printf("Estado: \n");              //--- Informações da 1º Carta ---
-    scanf("%c", estado1);
+    scanf("%c", &estado1);
 
     printf("Código da Carta: \n");
     scanf("%s", codigo1);
@@ -39,7 +39,7 @@ int main(){
     
 
     printf("Estado: \n");              //--- Informações da 2º Carta ---
-    scanf("%c", estado2);
+    scanf('%c', &estado2);
 
     printf("Código da Carta: \n");
     scanf("%s", codigo2);
