@@ -43,8 +43,8 @@ int main(){
     //-- FIM da 1º Carta --
 
 
-    char estado = 'B';                  //--- 2º Carta ---
-    char codigo[5] = "B01";
+    char estado = 'A2';                  //--- 2º Carta ---
+    char codigo[5] = "A02";
     char cidade[20] = "Salvador";
     int populacao = 2.418;
     float area = 693.4; 
