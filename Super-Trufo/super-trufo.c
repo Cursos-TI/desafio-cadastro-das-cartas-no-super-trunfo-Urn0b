@@ -74,7 +74,7 @@ int main(){
     printf("PIB per Capita: %.2f\n", pibpercapita1);
 
                                  // Exibição carta 2
-    printf("Estado: %s\n", estado2);
+    printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
