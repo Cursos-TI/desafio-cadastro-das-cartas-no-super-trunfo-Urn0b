@@ -44,7 +44,7 @@ int main(){
     scanf("%d", &populacao2);
 
     printf("Área em km²: \n");
-    scanf("%f", &area2
+    scanf("%f", &area2);
     printf("PIB: \n");
     scanf("%f", &pib2);
 
