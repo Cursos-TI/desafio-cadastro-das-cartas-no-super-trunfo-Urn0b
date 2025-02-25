@@ -39,7 +39,7 @@ int main(){
     
 
     printf("Estado: \n");              //--- Informações da 2º Carta ---
-    scanf('%c', &estado2);
+    scanf("%c", &estado2);
 
     printf("Código da Carta: \n");
     scanf("%s", codigo2);
