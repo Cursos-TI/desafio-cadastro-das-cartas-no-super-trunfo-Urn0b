@@ -10,13 +10,13 @@ int main(){
     int pontos1,pontos2;
 
     printf("Estado: \n");              //--- Informações da 1º Carta ---
-    scanf("%s", &estado1);
+    scanf("%c", estado1);
 
     printf("Código da Carta: \n");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("Nome da Cidade: \n");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
 
     printf("População: \n");
     scanf("%d", &populacao1);
@@ -32,13 +32,13 @@ int main(){
     
 
     printf("Estado: \n");              //--- Informações da 2º Carta ---
-    scanf("%s", &estado2);
+    scanf("%c", estado2);
 
     printf("Código da Carta: \n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Nome da Cidade: \n");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade2);
 
     printf("População: \n");
     scanf("%d", &populacao2);
@@ -52,7 +52,7 @@ int main(){
     scanf("%d", &pontos2);
 
                                   // Exibição carta 1  
-    printf("Estado: %s\n", estado1);
+    printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
